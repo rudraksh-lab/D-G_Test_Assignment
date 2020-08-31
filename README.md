@@ -1,17 +1,20 @@
 # D&G Test Assignemnt
 
-Robot Framework has been used to create simple Test framework to cover three API Tests : /users, /user/{id}, & /city/{city}/users
+Python - Selenium Libraries are used to automate tests, pytest framework used to encapsulate python scripts and further caipaibility of running selective test, assertions and generating html reports.
 
 # Minimum requirement
 
 1.Python Versions/2.7 or Versions/3.0 or any higher latest version
+
 2.pytest installation (use command : pip install pytest (on python 2.7) or pip3 install pytest (on python 3))
+
 3.selenium library installation (use command : pip install selenium (on python 2.7) or pip3 install selenium (on python 3))
+
 
 
 # Usage
 
-After python, pytest and selenium library install download package from github and run the test as per below.
+After python, pytest and selenium library installation download package from github and run tests as per below.
 
 Navigate to folder where you have dowloaded tests and open terminal and use commands to run tests.
 
@@ -50,6 +53,7 @@ Please note If conditions for sub-catageory specific products : Cooking and Boil
 Refer Folder : src/test
 Test file: test_run.py
 Report/Logs: console log and DG_Test_Assignment.html
+
 
 Test Run Console Log :
 
