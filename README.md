@@ -31,15 +31,19 @@ Navigate to folder where you have dowloaded tests and open terminal and use comm
 Here is a description of Tests Automated:
 
 1. TC_01_Product Search for Product - Cooker : Parameter passed for Product, Brand, guarantee and expected price
+
 Checks performed: Product Name and Price validated on view basket page
 
 2. TC_02_Product Search for Product - Fridge Freezer : Parameter passed for Product, Brand, guarantee and expected price
+
 Checks performed: Product Name and Price validated on view basket page
 
 3. TC_03_Product Search for Product - Condenser Dryer : Parameter passed for Product, Brand, guarantee and expected price
+
 Checks performed: Product Name and Price validated on view basket page
 
 4. TC_04_Product Search for Product - Combination Boiler : Parameter passed for Product, Brand, guarantee and expected price
+
 Checks performed: Product Name and Price validated on view basket page
 
 Working condition, Price range and date are hard code in test as of now however same can be made dynamic and referred from data provider dictionary.
@@ -69,28 +73,28 @@ test_run.py::test_tc01_search_product
 
 ************ Test Run **************
 Test Validation Successfull
-Searcheed Customer Product :Beko Cooker matched
+Searched Customer Product :Beko Cooker matched
 Selected Product Price :£7.50 matched
 PASSED
 test_run.py::test_tc02_search_product
 
 ************ Test Run **************
 Test Validation Successfull
-Searcheed Customer Product :Bush Fridge Freezer matched
+Searched Customer Product :Bush Fridge Freezer matched
 Selected Product Price :£3.39 matched
 PASSED
 test_run.py::test_tc03_search_product
 
 ************ Test Run **************
 Test Validation Successfull
-Searcheed Customer Product :Bosch Condenser Dryer matched
+Searched Customer Product :Bosch Condenser Dryer matched
 Selected Product Price :£7.50 matched
 PASSED
 test_run.py::test_tc04_search_product
 
 ************ Test Run **************
 Test Validation Successfull
-Searcheed Customer Product :Baxi Combination Boiler matched
+Searched Customer Product :Baxi Combination Boiler matched
 Selected Product Price :£17.50 matched
 PASSED
 
