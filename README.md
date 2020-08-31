@@ -4,11 +4,11 @@ Python - Selenium Libraries are used to automate tests, pytest framework used to
 
 # Minimum requirement
 
-1.Python Versions/2.7 or Versions/3.0 or any higher latest version
+1. Python Versions/2.7 or Versions/3.0 or any higher latest version
 
-2.pytest installation (use command : pip install pytest (on python 2.7) or pip3 install pytest (on python 3))
+2. pytest installation (use command : pip install pytest (on python 2.7) or pip3 install pytest (on python 3))
 
-3.selenium library installation (use command : pip install selenium (on python 2.7) or pip3 install selenium (on python 3))
+3. Selenium library installation (use command : pip install selenium (on python 2.7) or pip3 install selenium (on python 3))
 
 
 
@@ -30,16 +30,16 @@ Navigate to folder where you have dowloaded tests and open terminal and use comm
 
 Here is a description of Tests Automated:
 
-1. TC_01_Product Search for Cooker : Parameter passed for Product, Brand, guarantee and expected price
+1. TC_01_Product Search for Product - Cooker : Parameter passed for Product, Brand, guarantee and expected price
 Checks performed: Product Name and Price validated on view basket page
 
-2. TC_02_Product Search for Cooker : Parameter passed for Product, Brand, guarantee and expected price
+2. TC_02_Product Search for Product - Fridge Freezer : Parameter passed for Product, Brand, guarantee and expected price
 Checks performed: Product Name and Price validated on view basket page
 
-3. TC_03_Product Search for Cooker : Parameter passed for Product, Brand, guarantee and expected price
+3. TC_03_Product Search for Product - Condenser Dryer : Parameter passed for Product, Brand, guarantee and expected price
 Checks performed: Product Name and Price validated on view basket page
 
-4. TC_04_Product Search for Cooker : Parameter passed for Product, Brand, guarantee and expected price
+4. TC_04_Product Search for Product - Combination Boiler : Parameter passed for Product, Brand, guarantee and expected price
 Checks performed: Product Name and Price validated on view basket page
 
 Working condition, Price range and date are hard code in test as of now however same can be made dynamic and referred from data provider dictionary.
@@ -102,5 +102,5 @@ PASSED
 Send your questions to the
 - [rudraksh awasthy - rudraksh_awasthy@yahoo.com]
 
-Refer standard Robot Framework documentation 	
-- [https://robotframework.org/#documentation]
+Refer standard pytest Framework documentation 	
+- [https://docs.pytest.org/en/3.0.1/contents.html]
