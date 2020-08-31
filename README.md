@@ -27,6 +27,10 @@ Navigate to folder where you have dowloaded tests and open terminal and use comm
 3. Generate html report for executed tests -
       pytest -v -s --html=DG_Test_Assignment.html --self-contained-html test_run.py <enter>
       Note: Install pytest-html library using pip install pytest-html
+       
+       
+Note: Test repo has Chrome driver for Mac to get the same test running on through Windows machine needs Windows supported Chrome driver exe downloaded from https://www.selenium.dev/downloads/ and kept in the floder where test scripts are downloaded.
+
 
 Here is a description of Tests Automated:
 
@@ -48,9 +52,9 @@ Checks performed: Product Name and Price validated on view basket page
 
 Working condition, Price range and date are hard code in test as of now however same can be made dynamic and referred from data provider dictionary.
 
-Test Framework has helper.py for web element locators, navigation and validation through functions hence change in code for adding test is not required (except sub-category specific products (i.e. cooking and boiler)), any additional data combination specific test can be added by just adding data and test in file test_run.py
+Test Framework has seperate "helper.py" file for web element locators, navigation and validation through functions and already parameterised hence no change in code required for adding additional tests (except sub-category specific products (i.e. cooking and boiler)), any additional data combination specific test can be added by just adding data and test in file "test_run.py"
 
-Please note If conditions for sub-catageory specific products : Cooking and Boiler also need to be updated in helper.py to cover exceptional flow condition for these products.
+Please note If conditions for sub-catageory specific products : Cooking and Boiler also need to be updated in helper.py to cover sub-category flow condition for these products.
 
 # Documentation
 
@@ -99,12 +103,12 @@ Selected Product Price :£17.50 matched
 PASSED
 
 ------------------------------------------ generated html file: file:///Users/rudrakshawasthy/Documents/Selenium_Tests/DG_test assignment/DG_Test_Assignment.html ------------------------------------------
-================================================================================ 4 passed, 4 warnings in 141.98s (0:02:21) =================================================================================
+================================================================================ 4 passed in 141.98s (0:02:21) =================================================================================
 
 # Help
 
 Send your questions to the
 - [rudraksh awasthy - rudraksh_awasthy@yahoo.com]
 
-Refer standard pytest Framework documentation 	
+Refer standard pytest framework documentation 	
 - [https://docs.pytest.org/en/3.0.1/contents.html]
