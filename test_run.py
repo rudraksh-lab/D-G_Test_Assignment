@@ -30,7 +30,7 @@ def test_tc01_search_product():
             assert (data['1'][1]+" "+data['1'][0]==str(name))
             assert (data['1'][4]==str(price))
             print("Test Validation Successfull")
-            print("Searcheed Customer Product :"+name+" matched")
+            print("Searched Customer Product :"+name+" matched")
             print("Selected Product Price :"+price+" matched")
             continue_shopping()
 
@@ -48,7 +48,7 @@ def test_tc02_search_product():
             assert (data['2'][1]+" "+data['2'][0]==str(name))
             assert (data['2'][4]==str(price))
             print("Test Validation Successfull")
-            print("Searcheed Customer Product :"+name+" matched")
+            print("Searched Customer Product :"+name+" matched")
             print("Selected Product Price :"+price+" matched")
             continue_shopping()
 
@@ -66,7 +66,7 @@ def test_tc03_search_product():
             assert (data['3'][1]+" "+data['3'][0]==str(name))
             assert (data['3'][4]==str(price))
             print("Test Validation Successfull")
-            print("Searcheed Customer Product :"+name+" matched")
+            print("Searched Customer Product :"+name+" matched")
             print("Selected Product Price :"+price+" matched")
             continue_shopping()
 
@@ -84,6 +84,6 @@ def test_tc04_search_product():
             assert (data['4'][1]+" "+data['4'][0]==str(name))
             assert (data['4'][4]==str(price))
             print("Test Validation Successfull")
-            print("Searcheed Customer Product :"+name+" matched")
+            print("Searched Customer Product :"+name+" matched")
             print("Selected Product Price :"+price+" matched")
             continue_shopping()
